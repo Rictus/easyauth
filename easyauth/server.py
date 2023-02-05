@@ -372,7 +372,7 @@ class EasyAuthServer:
                 datefmt="%m-%d %H:%M",
             )
             self.log = logging.getLogger("EasyAuthServer")
-            self.log.propogate = False
+            self.log.propagate = False
             self.log.setLevel(level)
         else:
             self.log = logger
